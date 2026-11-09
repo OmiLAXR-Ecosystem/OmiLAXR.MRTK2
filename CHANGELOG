@@ -8,9 +8,16 @@
 ## [1.0.1] - 2025-12-17
 
 ### Added
-- added CHANGELOG, CITATION.cff and LICENSE files
+- `CHANGELOG`, `CITATION.cff` and `LICENSE` files with their `.meta` files.
 
 ## [1.0.0] - 2025-05-21
 
+First release of OmiLAXR.MRTK2.
+
 ### Added
-- Tracking Behaviour for Manipulation and Eyes
+- `ManipulationTrackingBehaviour` with `ObjectManipulatorListener` and `ManipulationStatementComposer` for MRTK2 object manipulation.
+- `EyeTrackingBehaviour` with `GazeDetection`, `EyeTrackingTargetListener`, `GazeDetectionListener` and `EyeTrackingStatementComposer` for MRTK2 eye tracking.
+- `MenuTrackingBehaviour` with `ButtonConfigHelperListener` and `MenuStatementComposer` for MRTK2 menus and buttons.
+- `MRTK2LearnerPipelineExtension` and `MRTK2DataProviderExtension` to plug the module into the OmiLAXR pipeline and data provider.
+- `ReenablePipelinesOnSceneLoad` helper.
+- Prefabs under `Resources/Prefabs`, including `Learning Analytics (MRTK2)` and MRTK2 variants of the OmiLAXR and OmiLAXR.xAPI prefabs.
