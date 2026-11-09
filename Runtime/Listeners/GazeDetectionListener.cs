@@ -8,6 +8,7 @@ namespace OmiLAXR.MRTK2.Listeners
     Description("Provides all <GazeDetection> components to pipeline.")]
     public class GazeDetectionListener : Listener
     {
+        [Tooltip("Also find GazeDetection components on inactive game objects.")]
         public bool includeInactive = true;
     
         public override void StartListening()

@@ -9,6 +9,7 @@ namespace OmiLAXR.MRTK2.Listeners
     Description("Provides all <ButtonConfigHelper> components to pipeline.")]
     public class ButtonConfigHelperListener : Listener
     {
+        [Tooltip("Also find ButtonConfigHelper components on inactive game objects.")]
         public bool includeInactive = true;
     
         public override void StartListening()

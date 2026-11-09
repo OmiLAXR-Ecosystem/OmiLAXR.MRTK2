@@ -4,6 +4,10 @@ using OmiLAXR.TrackingBehaviours;
 using UnityEngine;
 using UnityEngine.Events;
 
+/// <summary>
+/// Reports when the learner starts looking at, looks away from or dwells on MRTK2 <c>EyeTrackingTarget</c>s
+/// and <c>GazeDetection</c> objects. Only compiled with the scripting define <c>IMPLEMENTED_EYETRACKING</c>.
+/// </summary>
 public class EyeTrackingBehaviour : TrackingBehaviour
 {
     public TrackingBehaviourEvent<EyeTrackingTarget> eyeTrackingTargetOnLookAtStart = new TrackingBehaviourEvent<EyeTrackingTarget>();

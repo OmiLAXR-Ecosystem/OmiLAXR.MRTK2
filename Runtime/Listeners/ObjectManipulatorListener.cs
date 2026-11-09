@@ -9,6 +9,7 @@ namespace OmiLAXR.MRTK2.Listeners
     Description("Provides all <ObjectManipulator> components to pipeline.")]
     public class ObjectManipulatorListener : Listener
     {
+        [Tooltip("Also find ObjectManipulator components on inactive game objects.")]
         public bool includeInactive = true;
     
         public override void StartListening()
